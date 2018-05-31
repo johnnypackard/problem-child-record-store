@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Record Store</title>
+  <script src="vendors/jquery-3.3.1.min.js"></script>
+  <script src="client.js"></script>
+</head>
+<body>
+  <h1>Menkar Record Store</h1>
+
+  <section>
+    <h2>Add Record</h2>
+    <form>
+      <input type="text" id="in-artist" placeholder="artist"/>
+      <input type="text" id="in-album" placeholder="album"/>
+      <input type="number" id="in-year" placeholder="year"/>
+      <input type="text" id="in-genre" placeholder="genre"/>
+      <input type="submit" id="add-record" value="Add Record"/>
+    </form>
+  </section>
+
+  <section>
+    <h2>All Records</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Artist</th>
+          <th>Album</th>
+          <th>Year</th>
+          <th>Genres</th>
+        </tr>
+      </thead>
+      <tbody id="newRecord">
+        <!-- Records added by JavaScript -->
+      </tbody>
+    </table>
+  </section>
+</body>
+</html>
