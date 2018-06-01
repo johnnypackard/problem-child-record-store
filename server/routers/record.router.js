@@ -4,7 +4,7 @@ const express = require('express');
 const router = express.Router();
 
 // Make some records
-const Record = require('../modules/record.class');
+const Record = require('../modules/record.schema');
 // const recordArray = [
 //   // new Record('Beatles', 'Abbey Road', 1969, ['Rock']),
 //   // new Record('Michael Jackson', 'Off the Wall', 1979, ['Pop']),
